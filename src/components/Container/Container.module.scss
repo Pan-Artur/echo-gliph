@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  // outline: solid red;
+  max-width: 480px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 798px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1230px;
+  }
+}
